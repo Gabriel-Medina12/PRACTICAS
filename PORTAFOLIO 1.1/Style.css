@@ -151,7 +151,7 @@ body{
     border-radius: 1rem;
     display: grid;
     justify-content: center;
-    width: min(35rem,100%);
+    width: min(32rem,100%);
 }
 
 .formulario fieldset{
@@ -176,12 +176,14 @@ body{
     padding: .5rem 2rem;
     border-radius: .5rem;
     border: none;
+    width: 11rem;
 }
 
 .campo2 input{
     padding: .5rem 2rem;
     border-radius: .5rem;
     border: none;
+    width: 11.5rem;
     
 }
 
@@ -193,6 +195,11 @@ body{
 .boton-enviar{
     display: flex;
     justify-content:flex-end;
+    padding-left: 30px ;
+}
+
+.boton-enviar :hover{
+    background-color: var(--primario);
 }
 
 .campo3 input{
@@ -212,6 +219,7 @@ body{
 footer{
     display: flex;
     justify-content: center;
+    padding-bottom: 15px;
 }
 
 button{
